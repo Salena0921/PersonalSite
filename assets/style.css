@@ -1,27 +1,28 @@
 body {
-    background-image: radial-gradient( #fcd7fc,#e77cd4,#9b9f3d);     
+    background-image: radial-gradient(#fcd7fc, #e77cd4, #9b9f3d);
 }
 
 /* Navigation CSS */
 
-#navbarList{
+#navbarList {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 20px;
     font-weight: 700;
     margin-left: 100px;
     padding-left: 75px;
 }
-.nav-link{
+
+.nav-link {
     margin-right: 75px;
 }
 
-#personalLogo{
+#personalLogo {
     height: 100px;
     width: 300px;
     margin-left: 75px;
 }
 
-#fairyimage{
+#fairyimage {
     margin-right: 125px;
     height: 75px;
     width: 75px;
@@ -30,19 +31,25 @@ body {
 
 /* Jumbotron */
 
-.jumbotron{
+.jumbotron {
     background-image: url("./images/blur-caffeine-cappuccino-414656.jpg");
     background-repeat: no-repeat;
     background-size: 1700px 550px;
-    background-position-y: -100px;     
+    background-position-y: -100px;
     height: 400px;
     text-align: center;
 }
 
-#myTitle{
+#myTitle {
     color: black;
-    font-family: 'Cinzel Decorative', cursive;   
+    font-family: 'Cinzel Decorative', cursive;
     font-weight: 900;
     position: relative;
     top: 75px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
 }
