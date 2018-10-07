@@ -4,8 +4,8 @@ body {
 
 /* Navigation CSS */
 
-#navbar-example2{
-    background-color: pink;
+nav{
+    
 }
 
 #personalLogo{
@@ -18,4 +18,14 @@ body {
     height: 50px;
     width: 50px;
     transform: scaleX(-1);
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-image: url("./images/blur-caffeine-cappuccino-414656.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px 550px;
+    background-position-y: -125px; 
+    height: 400px;
 }
