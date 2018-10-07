@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(135deg, #eecda3, #faba9c, #ffa6a3, #fa96b6, #e28ed1);
+    background-image: radial-gradient( #fcd7fc,#e77cd4,#9b9f3d);
 }
 
 /* Navigation CSS */
