@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(135deg, #eecda3, #faba9c, #ffa6a3, #fa96b6, #e28ed1);
+}
+
+/* Navigation CSS */
+
+#navbar-example2{
+    background-color: pink;
+}
+
+#personalLogo{
+    height: 100px;
+    width: 300px;
+}
+
+#fairyimage{
+    margin-right: 25px;
+    height: 50px;
+    width: 50px;
+    transform: scaleX(-1);
+}
