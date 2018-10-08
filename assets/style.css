@@ -35,8 +35,8 @@ body {
     background-image: url("./images/blur-caffeine-cappuccino-414656.jpg");
     background-repeat: no-repeat;
     background-size: 1700px 550px;
-    background-position-y: -100px;
-    height: 400px;
+    background-position-y: -50px;
+    height: 500px;
     text-align: center;
 }
 
@@ -45,8 +45,41 @@ body {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 900;
     position: relative;
-    top: 75px;
+    top: 128px;
 }
+
+/* About Me */
+
+#aboutme {
+    margin-top: 450px;
+    margin-bottom: 450px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#aboutmeparagraph {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    background: none;
+    border: none;
+}
+
+#profilepic {
+    width: 250px;
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+/* Skills */
+
+#skills {
+    margin-top: 450px;
+    margin-bottom: 450px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 
 /* Footer */
 
