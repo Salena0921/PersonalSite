@@ -36,6 +36,9 @@ body {
 .heading-primary {
     color: #ffffff;
     text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 
 .heading-primary-main {
@@ -45,6 +48,7 @@ body {
     letter-spacing: 20px;
     line-height: 15vh;
     margin-bottom: 50px;
+    animation: moveInTop 5s ease-out;
 }
 
 .heading-primary-sub {
@@ -53,16 +57,18 @@ body {
     font-weight: 700;
     letter-spacing: 5px; 
     line-height: 6vh; 
+    animation: moveInRight 5s ease-out 2s; 
+    animation-fill-mode: backwards;
 }
 
-@keyframes moveInLeft {
+@keyframes moveInTop {
     0% {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateY(-100px);
     }
 
     80% {
-        transform: translateX(10px) ;
+        transform: translateY(10px) ;
     }
 
     100%{
@@ -79,18 +85,6 @@ body {
 
     80% {
         transform: translateX(-10px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
-}
-
-@keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
     }
 
     100%{
