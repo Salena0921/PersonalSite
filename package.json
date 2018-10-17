@@ -1,0 +1,22 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salena0921/PersonalSite.git"
+  },
+  "author": "Karissa McKendall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salena0921/PersonalSite/issues"
+  },
+  "homepage": "https://github.com/Salena0921/PersonalSite#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  }
+}

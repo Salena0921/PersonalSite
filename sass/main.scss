@@ -1,3 +1,9 @@
+$color-primary: #fcd7fc;
+$color-secondary:#e77cd4;
+$color-tertiary: #9b9f3d;
+
+$color-white: #fff;
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,15 +18,17 @@ body {
     font-family: 'Cinzel Decorative', sans-serif;
     font-weight: 400;    
     line-height: 1.7;
-    color: #fff;
+    color: $color-white;
     padding: 3rem;
 }
 
 .header{
     height: 95vh;
     background-image: 
-    radial-gradient(rgb(252, 215, 252, .7) , rgb(231, 124, 212, .8), rgb(155, 159, 61, .8) 87%),
-    url(../assets/images/blur-caffeine-cappuccino-414656.jpg);
+    radial-gradient(rgba($color-primary, 0.7),
+    rgba($color-secondary, 0.8),
+    rgba($color-tertiary, 0.8)),
+    url(../images/blur-caffeine-cappuccino-414656.jpg);
     background-size: cover;
     background-position: middle;
     position: relative;
@@ -37,7 +45,7 @@ body {
 }
 
 .heading-primary {
-    color: #ffffff;
+    color: $color-white;
     text-transform: uppercase;
 
     backface-visibility: hidden;
