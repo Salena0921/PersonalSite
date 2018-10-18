@@ -1,0 +1,21 @@
+.header{
+    height: 95vh;
+    background-image: 
+    radial-gradient(rgba($color-primary, 0.7),
+    rgba($color-secondary, 0.8),
+    rgba($color-tertiary, 0.8)),
+    url(../images/blur-caffeine-cappuccino-414656.jpg);
+    background-size: cover;
+    background-position: middle;
+    position: relative;
+    clip-path: ellipse(48% 48% at 50% 52%);
+
+    &__text-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+    }
+}
