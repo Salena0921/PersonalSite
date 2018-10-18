@@ -7,7 +7,7 @@ $color-white: #fff;
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
@@ -20,6 +20,8 @@ body {
     line-height: 1.7;
     color: $color-white;
     padding: 3rem;
+    
+    box-sizing: border-box;
 }
 
 .header{
