@@ -7,51 +7,8 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Cinzel Decorative', sans-serif;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #fff;
-  padding: 3rem;
-  box-sizing: border-box; }
-
-.header {
-  height: 95vh;
-  background-image: radial-gradient(rgba(252, 215, 252, 0.7), rgba(231, 124, 212, 0.8), rgba(155, 159, 61, 0.8)), url(../images/blur-caffeine-cappuccino-414656.jpg);
-  background-size: cover;
-  background-position: middle;
-  position: relative;
-  clip-path: ellipse(48% 48% at 50% 52%); }
-
-.header__text-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
-
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase;
-  backface-visibility: hidden;
-  margin-bottom: 6rem; }
-
-.heading-primary--main {
-  display: block;
-  font-size: 10rem;
-  font-weight: 900;
-  letter-spacing: 2rem;
-  line-height: 15vh;
-  margin-bottom: 5rem;
-  animation: moveInTop 5s ease-out; }
-
-.heading-primary--sub {
-  display: block;
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: .5rem;
-  line-height: 6vh;
-  animation: moveInRight 5s ease-out 2s;
-  animation-fill-mode: backwards; }
+  box-sizing: border-box;
+  background-image: radial-gradient(rgba(173, 128, 89, 0.2), #ad8059); }
 
 @keyframes moveInTop {
   0% {
@@ -72,3 +29,46 @@ body {
   100% {
     opacity: 1;
     transform: translate(0); } }
+
+body {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #202122;
+  padding: 3rem; }
+
+.heading-primary {
+  color: #202122;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+  .heading-primary--main {
+    display: block;
+    font-size: 10rem;
+    font-weight: 900;
+    letter-spacing: 2rem;
+    line-height: 15vh;
+    margin-bottom: 5rem;
+    animation: moveInTop 5s ease-out; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    line-height: 6vh;
+    animation: moveInRight 5s ease-out 2s;
+    animation-fill-mode: backwards; }
+
+.header {
+  height: 95vh;
+  background-image: radial-gradient(rgba(209, 187, 217, 0.7), rgba(218, 146, 122, 0.8), rgba(163, 31, 108, 0.8) 80%), url(../images/blur-caffeine-cappuccino-414656.jpg);
+  background-size: cover;
+  background-position: middle;
+  position: relative;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); }
+  .header__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
