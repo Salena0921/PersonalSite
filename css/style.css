@@ -61,10 +61,16 @@ body {
     animation-fill-mode: backwards; }
 
 .heading-secondary {
-  font-size: 4rem;
+  font-size: 6rem;
   display: inline-block;
   letter-spacing: .2rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom right, #a31f6c, #d1bbd9);
+  -webkit-background-clip: text;
+  color: transparent; }
+  .heading-secondary:hover {
+    transform: scale(2);
+    text-shadow: 0.5rem 1rem 2rem rgba(32, 33, 34, 0.2); }
 
 .paragraph {
   font-family: "Cormorant Garamond", serif;

@@ -2,12 +2,12 @@ body {
     font-family: $font-main;
     font-weight: 400;    
     line-height: 1.7;
-    color: $color-white;
+    color: $color-dark;
     padding: 3rem;
 }
 
 .heading-primary {
-    color: $color-white;
+    color: $color-dark;
     text-transform: uppercase;
 
     backface-visibility: hidden;
@@ -36,10 +36,18 @@ body {
 }
 
 .heading-secondary {
-    font-size: 4rem;
+    font-size: 6rem;
     display: inline-block;
     letter-spacing: .2rem;
     text-transform: uppercase;
+    background-image: linear-gradient(to bottom right, $color-quaternary, $color-secondary);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    &:hover {
+        transform: scale(2);
+        text-shadow: .5rem 1rem 2rem rgba($color-dark, .2);
+    }
 }
 
 .paragraph {
