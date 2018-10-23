@@ -94,9 +94,9 @@ body {
   height: 95vh;
   background-image: radial-gradient(rgba(209, 187, 217, 0.7), rgba(218, 146, 122, 0.8), rgba(163, 31, 108, 0.8) 80%), url(../images/blur-caffeine-cappuccino-414656.jpg);
   background-size: cover;
-  background-position: middle;
+  background-position: bottom;
   position: relative;
-  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); }
+  clip-path: polygon(0% 0%, 0% 100%, 50% 85%, 100% 100%, 100% 0%); }
   .header__text-box {
     position: absolute;
     top: 50%;

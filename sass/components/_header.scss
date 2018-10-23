@@ -6,9 +6,9 @@
     rgba($color-quaternary, 0.8) 80%),
     url(../images/blur-caffeine-cappuccino-414656.jpg);
     background-size: cover;
-    background-position: middle;
+    background-position: bottom;
     position: relative;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(0% 0%, 0% 100%, 50% 85%, 100% 100%, 100% 0%);
 
     &__text-box{
         position: absolute;
