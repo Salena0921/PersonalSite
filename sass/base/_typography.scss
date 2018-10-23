@@ -40,7 +40,7 @@ body {
     display: inline-block;
     letter-spacing: .2rem;
     text-transform: uppercase;
-    background-image: linear-gradient(to bottom right, $color-quaternary, $color-secondary);
+    background-image: radial-gradient($color-quaternary, rgba($color-quaternary, .4));
     -webkit-background-clip: text;
     color: transparent;
 
@@ -55,4 +55,19 @@ body {
     font-size: $default-font-size;
     font-weight: 500;
     text-indent: 4rem;
+}
+
+.skills-box{
+    font-family: $font-secondary;
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 3px;
+        
+    &__icon {
+        font-size: 8rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+    }
 }

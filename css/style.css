@@ -65,7 +65,7 @@ body {
   display: inline-block;
   letter-spacing: .2rem;
   text-transform: uppercase;
-  background-image: linear-gradient(to bottom right, #a31f6c, #d1bbd9);
+  background-image: radial-gradient(#a31f6c, rgba(163, 31, 108, 0.4));
   -webkit-background-clip: text;
   color: transparent; }
   .heading-secondary:hover {
@@ -77,6 +77,18 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   text-indent: 4rem; }
+
+.skills-box {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  text-indent: 0;
+  border-radius: 3px; }
+  .skills-box__icon {
+    font-size: 8rem;
+    margin-bottom: .5rem;
+    display: inline-block; }
 
 .u-center-text {
   text-align: center; }
@@ -142,3 +154,13 @@ body {
 .section-about {
   padding: 25rem 0;
   margin-top: -15vh; }
+
+.section-skills {
+  font-size: 1.5rem;
+  padding: 15rem;
+  text-align: center;
+  height: 125vh;
+  background-image: radial-gradient(rgba(209, 187, 217, 0.7), rgba(218, 146, 122, 0.8), rgba(163, 31, 108, 0.8) 80%), url(../../images/black-and-white-keyboard-close-up-device-698808.jpg);
+  background-size: cover;
+  background-position: middle;
+  clip-path: polygon(100% 0%, 50% 10%, 0% 0%, 0% 99%, 50% 82%, 100% 100%); }
