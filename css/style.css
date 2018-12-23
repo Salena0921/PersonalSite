@@ -8,7 +8,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-image: radial-gradient(rgba(173, 128, 89, 0.2), #ad8059); }
+  background-image: radial-gradient(rgba(251, 233, 228, 0.2), #FBE9E4); }
 
 @keyframes moveInTop {
   0% {
@@ -38,7 +38,7 @@ body {
   padding: 3rem; }
 
 .heading-primary {
-  color: #202122;
+  color: #AC8F4D;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
@@ -65,7 +65,7 @@ body {
   display: inline-block;
   letter-spacing: .2rem;
   text-transform: uppercase;
-  background-image: radial-gradient(#a31f6c, rgba(163, 31, 108, 0.4));
+  background-image: radial-gradient(#DD8E8D, rgba(221, 142, 141, 0.4));
   -webkit-background-clip: text;
   color: transparent; }
   .heading-secondary:hover {
@@ -104,11 +104,10 @@ body {
 
 .header {
   height: 95vh;
-  background-image: radial-gradient(rgba(209, 187, 217, 0.7), rgba(218, 146, 122, 0.8), rgba(163, 31, 108, 0.8) 80%), url(../images/blur-caffeine-cappuccino-414656.jpg);
+  background-image: radial-gradient(rgba(245, 212, 217, 0.5), rgba(237, 174, 175, 0.5), rgba(221, 142, 141, 0.7) 90%), url(../../images/candle-decor-decoration-1071285.jpg);
   background-size: cover;
   background-position: bottom;
-  position: relative;
-  clip-path: polygon(0% 0%, 0% 100%, 50% 85%, 100% 100%, 100% 0%); }
+  position: relative; }
   .header__text-box {
     position: absolute;
     top: 50%;
@@ -121,8 +120,8 @@ body {
   .composition__photo {
     width: 17%;
     position: absolute;
-    box-shadow: 0 1.5rem 4rem rgba(163, 31, 108, 0.4);
-    border: solid 2px #a31f6c;
+    box-shadow: 0 1.5rem 4rem rgba(221, 142, 141, 0.4);
+    border: solid 2px #DD8E8D;
     margin-left: 5rem; }
 
 .row {
@@ -160,7 +159,6 @@ body {
   padding: 15rem;
   text-align: center;
   height: 125vh;
-  background-image: radial-gradient(rgba(209, 187, 217, 0.7), rgba(218, 146, 122, 0.8), rgba(163, 31, 108, 0.8) 80%), url(../../images/black-and-white-keyboard-close-up-device-698808.jpg);
+  background-image: radial-gradient(rgba(245, 212, 217, 0.7), rgba(237, 174, 175, 0.8), rgba(221, 142, 141, 0.8) 80%), url(../../images/cracks-design-exterior-941552.jpg);
   background-size: cover;
-  background-position: middle;
-  clip-path: polygon(100% 0%, 50% 10%, 0% 0%, 0% 99%, 50% 82%, 100% 100%); }
+  background-position: middle; }
