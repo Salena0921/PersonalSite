@@ -40,7 +40,8 @@ body {
     display: inline-block;
     letter-spacing: .2rem;
     text-transform: uppercase;
-    background-image: radial-gradient($color-quaternary, rgba($color-quaternary, .4));
+    background-image: radial-gradient(rgba($color-accent-secondary, 0.8),
+    rgba($color-accent-primary, 0.5) 80%);
     -webkit-background-clip: text;
     color: transparent;
 

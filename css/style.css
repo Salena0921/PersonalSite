@@ -38,7 +38,7 @@ body {
   padding: 3rem; }
 
 .heading-primary {
-  color: #AC8F4D;
+  color: #f1eeed;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
@@ -65,7 +65,7 @@ body {
   display: inline-block;
   letter-spacing: .2rem;
   text-transform: uppercase;
-  background-image: radial-gradient(#DD8E8D, rgba(221, 142, 141, 0.4));
+  background-image: radial-gradient(rgba(217, 190, 75, 0.8), rgba(133, 105, 52, 0.5) 80%);
   -webkit-background-clip: text;
   color: transparent; }
   .heading-secondary:hover {
@@ -121,7 +121,7 @@ body {
     width: 17%;
     position: absolute;
     box-shadow: 0 1.5rem 4rem rgba(221, 142, 141, 0.4);
-    border: solid 2px #DD8E8D;
+    border: solid 2px #D9BE4B;
     margin-left: 5rem; }
 
 .row {
@@ -159,6 +159,6 @@ body {
   padding: 15rem;
   text-align: center;
   height: 125vh;
-  background-image: radial-gradient(rgba(245, 212, 217, 0.7), rgba(237, 174, 175, 0.8), rgba(221, 142, 141, 0.8) 80%), url(../../images/cracks-design-exterior-941552.jpg);
+  background-image: radial-gradient(rgba(245, 212, 217, 0.7), rgba(237, 174, 175, 0.7), rgba(221, 142, 141, 0.7) 90%), url(../../images/cracks-design-exterior-941552.jpg);
   background-size: cover;
   background-position: middle; }
