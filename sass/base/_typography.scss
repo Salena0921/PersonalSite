@@ -1,6 +1,6 @@
 body {
     font-family: $font-main;
-    font-weight: 400;    
+    font-weight: 400;
     line-height: 1.7;
     color: $color-dark;
     padding: 3rem;
@@ -22,15 +22,15 @@ body {
         margin-bottom: 5rem;
         animation: moveInTop 5s ease-out;
     }
-    
+
     &--sub {
         display: block;
         font-family: $font-secondary;
         font-size: 3rem;
         font-weight: 600;
-        letter-spacing: .25rem; 
-        line-height: 6vh; 
-        animation: moveInRight 5s ease-out 2s; 
+        letter-spacing: .25rem;
+        line-height: 6vh;
+        animation: moveInRight 5s ease-out 2s;
         animation-fill-mode: backwards;
     }
 }
@@ -41,7 +41,7 @@ body {
     letter-spacing: .2rem;
     text-transform: uppercase;
     background-image: radial-gradient(rgba($color-accent-secondary, 0.8),
-    rgba($color-accent-primary, 0.5) 80%);
+        rgba($color-accent-primary, 0.5) 80%);
     -webkit-background-clip: text;
     color: transparent;
 
@@ -58,17 +58,43 @@ body {
     text-indent: 4rem;
 }
 
-.skills-box{
+.skills-box {
     font-family: $font-secondary;
     font-size: 1.5rem;
     padding: 2.5rem;
     text-align: center;
     text-indent: 0;
     border-radius: 3px;
-        
+
     &__icon {
         font-size: 8rem;
         margin-bottom: .5rem;
         display: inline-block;
+    }
+}
+
+.card {
+    font-family: $font-secondary;
+
+    &__heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__details {
+        ul {
+            li {
+                text-align: center;
+                font-size: 1.75rem;
+                font-weight: 700;
+
+            }
+        }
+    }
+
+    &__cta {
+        text-align: center;
     }
 }
