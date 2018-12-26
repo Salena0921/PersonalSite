@@ -141,9 +141,17 @@ body {
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(32, 33, 34, 0.15); }
     .card__side--front {
-      background-color: #f1eeed; }
+      background-image: radial-gradient(#FBE9E4, #DD8E8D); }
     .card__side--back {
       transform: rotateY(180deg); }
+      .card__side--back-1 {
+        background-image: radial-gradient(#FBE9E4, #DD8E8D); }
+      .card__side--back-2 {
+        background-image: radial-gradient(#FBE9E4, #DD8E8D); }
+      .card__side--back-3 {
+        background-image: radial-gradient(#FBE9E4, #DD8E8D); }
+      .card__side--back-4 {
+        background-image: radial-gradient(#FBE9E4, #DD8E8D); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -155,7 +163,13 @@ body {
     height: 25rem;
     background-blend-mode: screen; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #202122, #202122), url(../../images/HPHangman.png); }
+      background-image: url(../../images/HPHangman.png); }
+    .card__picture--2 {
+      background-image: url(../../images/ShenronGuess.png); }
+    .card__picture--3 {
+      background-image: url(../../images/HPTrivia.png); }
+    .card__picture--4 {
+      background-image: url(../../images/CreativityManaged.png); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -176,8 +190,8 @@ body {
       bottom: 2.5rem; }
       .card__details ul li {
         text-align: center;
-        font-size: 1.5rem;
-        padding: 1rem; }
+        font-size: 1.25rem;
+        padding: .5rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
   .card__cta {

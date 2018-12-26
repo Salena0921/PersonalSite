@@ -19,11 +19,27 @@
         box-shadow: 0 1.5rem 4rem rgba($color-dark, .15);
 
         &--front {
-            background-color: $color-light;
+            background-image: radial-gradient($color-primary, $color-quaternary);
         }
 
         &--back {
             transform: rotateY(180deg);
+
+            &-1 {
+                background-image: radial-gradient($color-primary, $color-quaternary);
+            }
+
+            &-2 {
+                background-image: radial-gradient($color-primary, $color-quaternary);
+            }
+
+            &-3 {
+                background-image: radial-gradient($color-primary, $color-quaternary);
+            }
+
+            &-4 {
+                background-image: radial-gradient($color-primary, $color-quaternary);
+            }
         }
     }
 
@@ -43,7 +59,19 @@
         background-blend-mode: screen;
 
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-dark, $color-dark), url(../../images/HPHangman.png);
+            background-image: url(../../images/HPHangman.png);
+        }
+
+        &--2 {
+            background-image: url(../../images/ShenronGuess.png);
+        }
+
+        &--3 {
+            background-image: url(../../images/HPTrivia.png);
+        }
+
+        &--4 {
+            background-image: url(../../images/CreativityManaged.png);
         }
     }
 
@@ -73,11 +101,11 @@
 
             li {
                 text-align: center;
-                font-size: 1.5rem;
-                padding: 1rem;
+                font-size: 1.25rem;
+                padding: .5rem;
 
                 &:not(:last-child) {
-                    border-bottom: 1px solid $color-grey-light-2;
+                    border-bottom: 1px solid $color-grey;
                 }
             }
         }
